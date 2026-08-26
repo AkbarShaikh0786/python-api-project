@@ -12,7 +12,7 @@ app = FastAPI(
 
 @app.get("/")
 def hello():
-    return {"message": "Hello Dosto, this is the DevOps Utilities API"}
+    return {"message": "Hello Dosto, this is the page for python API's"}
 
 
 @app.get("/health")
