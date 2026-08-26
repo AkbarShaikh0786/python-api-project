@@ -2,8 +2,8 @@ from fastapi import FastAPI
 from routers import metrics, aws, logs
 
 app = FastAPI(
-    title="Internal DevOps Utilities API",
-    description="Internal utilities API for system metrics, AWS usage, and log analysis.",
+    title="Python API",
+    description="Python API for system metrics, AWS usage, and log analysis.",
     version="1.2.0",
     docs_url="/docs",
     redoc_url="/redoc",
